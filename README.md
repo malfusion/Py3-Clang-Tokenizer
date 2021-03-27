@@ -6,9 +6,9 @@ A Python3 port of the C/C++ tokenizer available at [JonathanPierce/PyTokenize](h
 
 - Make sure the latest XCode Command Line Tools are installed
   - ```xcode-select --install```
-- You must have llvm installed 
+- Make sure llvm is installed 
   - ```brew install llvm```
-- This installs llvm to the system with the library present at:
+- The above command installs llvm to the system with the library present at a path like:
   - ```/usr/local/Cellar/llvm/11.1.0/lib```
 - Make sure to change the Config line in tokenizer.py according to your installation:
   - ```clang.cindex.Config.set_library_path("/usr/local/Cellar/llvm/11.1.0/lib")```
