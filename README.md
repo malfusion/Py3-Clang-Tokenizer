@@ -12,6 +12,8 @@ A Python3 port of the C/C++ tokenizer available at [JonathanPierce/PyTokenize](h
   - ```/usr/local/Cellar/llvm/11.1.0/lib```
 - Make sure to change the Config line in tokenizer.py according to your installation:
   - ```clang.cindex.Config.set_library_path("/usr/local/Cellar/llvm/11.1.0/lib")```
+- Install clang in your python environment
+  - pip install clang
  
 # Usage (Library)
 - Using a string of code written in C/C++
